@@ -11,17 +11,17 @@ function VedioPlayer() {
   return (
     <div className=' overflow-hidden'>
 
-      <nav className='shadow-2xl  h-[50px] fixed w-[100vw] bg-neutral-800 text-slate-200' >
+      <nav className='hidden md:block shadow-2xl  h-[50px] fixed w-[100vw] bg-neutral-800 text-slate-200' >
         Video Player
       </nav>
 
-      <div className=' left-[15%] top-[40%] -z-10 mt-[150px] -mr-[20%]'>
+      <div className=' left-[15%] top-[40%] -z-10 mt-[100px] -mr-[20%]'>
         <div className='flex justify-center xl:flex-row flex-col  h-[80vh]  mt-[30px] w-fit '>
-          <div className=' flex  items-center   w-[50%]'>
+          <div className=' flex  items-center   w-[50%] bg-black'>
 
             {
         
-              <div className=' -mt-[20%]   shadow-2xl w-[100vw] '>  <ReactPlayer url={vedioUrl} playing={true} controls={true} player={true} loop={true} width='100%'
+              <div className='shadow-2xl w-[100vw]'>  <ReactPlayer url={vedioUrl} playing={true} controls={true} player={true} loop={true} width='100%'
                 height='100%'
               />
 
@@ -32,7 +32,7 @@ function VedioPlayer() {
 
           <div className=' h-fit '>
 
-            <div className='flex flex-col  h-[62vh] w-[50%]  ms-3 rounded-2xl overflow-scroll  overflow-x-hidden scroll-m-4 '>
+            <div className='flex flex-col  h-[82vh] w-[50%]  ms-3 rounded-2xl overflow-scroll  overflow-x-hidden scroll-m-4 '>
 
               <div className=''>
                 <button className='border-2 border-black ms-3 rounded px-3'
