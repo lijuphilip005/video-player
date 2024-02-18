@@ -7,7 +7,7 @@ Welcome to the Video Player project, a comprehensive video player with a playlis
 Local Setup Instructions
 To run this project on your local machine, follow these steps:
 
-Clone or download the project ZIP file.
+ git clone or download the project ZIP file.
 Run npm install in the project directory to install dependencies.
 Execute npm run dev in the terminal to launch the application locally.
 Open http://localhost:5173 in your preferred browser to view the application.
