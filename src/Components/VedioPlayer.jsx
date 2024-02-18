@@ -34,7 +34,7 @@ function VedioPlayer() {
 
             <div className='flex flex-col md:mt-0 mt-9  h-[82vh] w-[100%] md:w-[50%]  ms-3 rounded-2xl overflow-scroll  overflow-x-hidden scroll-m-4 '>
 
-              <div className=''>
+              <div className='cursor-pointer'>
                 <button className='border-2 border-black ms-3 rounded px-3'
                   onClick={() => {
 
@@ -50,7 +50,7 @@ function VedioPlayer() {
                     onClick={() => {
                       setVedioUrl(video.sources)
                     }}
-                    className='flex my-3 w-[100%]'>
+                    className='flex my-3 w-[100%] cursor-pointer'>
                     <div className='   flex items-center gap-3'>
                       <img src={"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/" + video.thumb} alt="thumb" className='sm:w-[40%] w-[20%] rounded-lg ' />
                       { }
