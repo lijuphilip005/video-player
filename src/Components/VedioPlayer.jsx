@@ -17,7 +17,7 @@ function VedioPlayer() {
 
       <div className=' left-[15%] top-[40%] -z-10 mt-[100px] -mr-[20%]'>
         <div className='flex justify-center xl:flex-row flex-col  h-[80vh]  mt-[30px] w-fit '>
-          <div className=' flex  items-center   w-[50%] bg-black'>
+          <div className=' flex  items-center w-[100%]  lg:mt-0 mt-0 sm:mt-[200px]  xl:w-[50%] bg-black'>
 
             {
         
@@ -32,7 +32,7 @@ function VedioPlayer() {
 
           <div className=' h-fit '>
 
-            <div className='flex flex-col  h-[82vh] w-[50%]  ms-3 rounded-2xl overflow-scroll  overflow-x-hidden scroll-m-4 '>
+            <div className='flex flex-col md:mt-0 mt-9  h-[82vh] w-[100%] md:w-[50%]  ms-3 rounded-2xl overflow-scroll  overflow-x-hidden scroll-m-4 '>
 
               <div className=''>
                 <button className='border-2 border-black ms-3 rounded px-3'
@@ -52,9 +52,9 @@ function VedioPlayer() {
                     }}
                     className='flex my-3 w-[100%]'>
                     <div className='   flex items-center gap-3'>
-                      <img src={"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/" + video.thumb} alt="thumb" className='w-[40%] rounded-lg ' />
+                      <img src={"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/" + video.thumb} alt="thumb" className='sm:w-[40%] w-[20%] rounded-lg ' />
                       { }
-                      <div className='font-bold'>{video.title} </div>
+                      <div className='font-bold sm:text-[1rem] text-[0.8rem]'>{video.title} </div>
                     </div>
 
                   </div>
