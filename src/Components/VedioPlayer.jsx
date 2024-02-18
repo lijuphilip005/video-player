@@ -21,7 +21,8 @@ function VedioPlayer() {
 
             {
         
-              <div className='shadow-2xl w-[100vw] cursor-pointer' >  <ReactPlayer url={vedioUrl} playing={true} controls={true} player={true} loop={true} width='100%'
+              <div className='shadow-2xl w-[100vw] cursor-pointer' > 
+               <ReactPlayer url={vedioUrl} playing={true} controls={true} player={true} loop={true} width='100%'
                 height='100%'
               />
 
